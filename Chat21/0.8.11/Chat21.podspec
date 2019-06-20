@@ -27,7 +27,7 @@ s.dependency 'Firebase/Messaging'
 s.dependency 'Firebase/Storage'
 
 s.source_files  = "Chat21/**/*.{h,m}"
-
+s.resources = "Chat21/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,strings}"
 s.public_header_files = 'Chat21/**/*.h'
 
 end
