@@ -3,7 +3,12 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '10.0'
 s.name = "Chat21"
-s.summary = "Chat21 lets you add instant messaging to your iOS App."
+s.summary = "Chat21 adds instant messaging to your iOS App."
+
+s.description  = <<-DESC
+Allow your users to easily communicate with each other. Chat21 iOS SDK adds instant messaging to your App. Swift and Objc supported.
+                   DESC
+
 s.requires_arc = true
 
 s.version = "0.8.26"
